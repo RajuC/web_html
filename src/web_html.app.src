@@ -9,7 +9,10 @@
 		stdlib,
 		ranch,
 		cowlib,
-		cowboy
+		cowboy,
+		cowboy_cors,
+		lager,
+		jsx
 	]},
 	{mod, {web_html_app, []}},
 	{env, []}
